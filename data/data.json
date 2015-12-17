@@ -23,12 +23,46 @@
 		{
 			"id": 1,
 			"name": "Toxicity",
-			"year": 2001
+			"year": 2001,
+			"songs": [
+				"Prison Song",
+				"Needles",
+				"Deer Dance",
+				"Jet Pilot",
+				"X" ,
+				"Chop Suey!",
+				"Bounce",
+				"Forest",
+				"ATWA",
+				"Science",
+				"Shimmy",
+				"Toxicity",
+				"Psycho",
+				"Aerials"  
+			]
 		},
 		{
 			"id": 2,
 			"name": "Steal This Album!",
-			"year": 2002
+			"year": 2002,
+			"songs": [
+				"Chic 'N' Stu",
+				"Innervision",
+				"Bubbles",
+				"Boom!",
+				"NÃ¼guns",
+				"A.D.D.",
+				"Mr. Jack",
+				"I-E-A-I-A-I-O",
+				"36",
+				"Pictures",
+				"Highway Song",
+				"Fuck the System",
+				"Ego Brain",
+				"Thetawaves",
+				"Roulette",
+				"Streamline" 
+			]
 		},
 		{
 			"id": 3,
@@ -42,9 +76,9 @@
 		}
 	],
 	"members": [
-		"Serj Tankian – lead vocals, keyboards and occasional guitar (1994–present)",
-		"Daron Malakian – guitar, vocals (1994–present)",
-		"Shavo Odadjian – bass, backing vocals (1994–present)",
-		"John Dolmayan – drums (1997–present)"
+		"Serj Tankian â€“ lead vocals, keyboards and occasional guitar (1994â€“present)",
+		"Daron Malakian â€“ guitar, vocals (1994â€“present)",
+		"Shavo Odadjian â€“ bass, backing vocals (1994â€“present)",
+		"John Dolmayan â€“ drums (1997â€“present)"
 	]
 }
