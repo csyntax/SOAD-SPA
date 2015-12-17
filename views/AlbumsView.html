@@ -1,0 +1,8 @@
+<section ng-controller="AlbumsController">
+	<h2>Albums</h2>
+	<ol>
+		<li ng-repeat="album in albums">
+			<a href="/#/album/{{album.id}}">{{album.name}}</a>
+		</li>
+	</ol>
+</section>

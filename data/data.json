@@ -1,0 +1,35 @@
+{
+	"albums": [
+		{
+			"id": 0,
+			"name": "System of a Down",
+			"year": 1998
+		},
+		{
+			"id": 1,
+			"name": "Toxicity",
+			"year": 2001
+		},
+		{
+			"id": 2,
+			"name": "Steal This Album!",
+			"year": 2002
+		},
+		{
+			"id": 3,
+			"name": "Mezmerize",
+			"year": 2005
+		},
+		{
+			"id": 4,
+			"name": "Hypnotize",
+			"year": 2005
+		}
+	],
+	"members": [
+		"Serj Tankian – lead vocals, keyboards and occasional guitar (1994–present)",
+		"Daron Malakian – guitar, vocals (1994–present)",
+		"Shavo Odadjian – bass, backing vocals (1994–present)",
+		"John Dolmayan – drums (1997–present)"
+	]
+}
