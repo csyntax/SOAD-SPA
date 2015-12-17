@@ -3,7 +3,22 @@
 		{
 			"id": 0,
 			"name": "System of a Down",
-			"year": 1998
+			"year": 1998,
+			"songs": [
+				"Suite-Pee",
+				"Know",
+				"Sugar",
+				"Suggestions",
+				"Spiders",
+				"DDevil",
+				"Soil",
+				"War?",
+				"Mind",
+				"Peephole",
+				"CUBErt",
+				"Darts",
+				"P.L.U.C.K."
+			]
 		},
 		{
 			"id": 1,
