@@ -1,6 +1,8 @@
 var app = angular.module("workshopApp", ["ngRoute"]);
 
-app.config(function ($routeProvider) {
+app.config(function ($routeProvider, $locationProvider) {
+	$locationProvider.html5Mode(false).hashPrefix("!");
+	
 	$routeProvider
 		.when("/home", {
 			templateUrl: "views/HomeView.html"
