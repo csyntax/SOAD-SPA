@@ -3,6 +3,7 @@
 		"id": 1,
 		"name": "System of a Down",
 		"year": 1998,
+		"cover": "/images/covers/220px-System_of_a_down.jpg",
 		"songs": [
 			"Suite-Pee",
 			"Know",
@@ -23,6 +24,7 @@
 			"id": 2,
 			"name": "Toxicity",
 			"year": 2001,
+			"cover": "/images/covers/220px-SystemofaDownToxicityalbumcover.jpg",
 			"songs": [
 				"Prison Song",
 				"Needles",
@@ -44,6 +46,7 @@
 			"id": 3,
 			"name": "Steal This Album!",
 			"year": 2002,
+			"cover": "/images/covers/220px-StealThisAlbum.png",
 			"songs": [
 				"Chic 'N' Stu",
 				"Innervision",
@@ -67,6 +70,7 @@
 			"id": 4,
 			"name": "Mezmerize",
 			"year": 2005,
+			"cover": "/images/covers/220px-Mezmerize-LP.jpg",
 			"songs": [
 				"Soldier Side - Intro",
 				"B.Y.O.B.",
@@ -85,6 +89,7 @@
 			"id": 5,
 			"name": "Hypnotize",
 			"year": 2005,
+			"cover": "/images/covers/220px-System_Of_A_Down-Hypnotize.jpg",
 			"songs": [
 				"Attack",
 				"Dreaming",

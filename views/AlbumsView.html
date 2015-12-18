@@ -1,8 +1,42 @@
 <section ng-controller="AlbumsController">
-	<h2>Albums</h2>
-	<ol>
-		<li ng-repeat="album in albums">
-			<a href="/#!/album/{{album.id}}">{{album.name}}</a>
-		</li>
-	</ol>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<form class="form-inline">
+					<div class="form-group">
+						<label>Search: </label>
+						<input type="text" placeholder="Search" ng-model="query" class="form-control">
+					</div>
+				</form>
+			</div>
+
+			<div class="col-md-6">
+				<form class="form-inline">
+					<div class="form-group">
+						<label>Sort: </label>
+						<select ng-model="sort" class="form-control">
+							<option value="-name">By name</option>
+							<option value="-year">By year</option>
+						</select>
+					</div>
+				</form>	
+			</div>
+		</div>
+		<hr>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-3" ng-repeat="album in albums | orderBy: sort | filter:query">
+			 <div class="thumbnail">
+			 	<img ng-src="{{album.cover}}" />
+			 	 <div class="caption">
+			 	 	<h3>{{album.name}}</h3>
+			 	 	<time class="label label-default">{{album.year}}</time>
+			 	 	<div>
+			 	 		<a class="btn btn-default" ng-href="/#!/album/{{album.id}}">View</a>
+			 	 	</div>					
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
