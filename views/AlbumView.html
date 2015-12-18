@@ -1,8 +1,10 @@
 <section ng-controller="AlbumController">
 	<h2>Album</h2>
+	{{album.name}} - {{album.year}}
+	
 	<ol>
-		<li>
-			{{album.name}} - {{album.year}}
+		<li ng-repeat="song in album.songs">
+			{{song}}
 		</li>
 	</ol>
 </section>

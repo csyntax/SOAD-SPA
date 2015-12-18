@@ -1,27 +1,26 @@
-{
-	"albums": [
+[
+	{
+		"id": 1,
+		"name": "System of a Down",
+		"year": 1998,
+		"songs": [
+			"Suite-Pee",
+			"Know",
+			"Sugar",
+			"Suggestions",
+			"Spiders",
+			"DDevil",
+			"Soil",
+			"War?",
+			"Mind",
+			"Peephole",
+			"CUBErt",
+			"Darts",
+			"P.L.U.C.K."
+		]
+	},
 		{
-			"id": 0,
-			"name": "System of a Down",
-			"year": 1998,
-			"songs": [
-				"Suite-Pee",
-				"Know",
-				"Sugar",
-				"Suggestions",
-				"Spiders",
-				"DDevil",
-				"Soil",
-				"War?",
-				"Mind",
-				"Peephole",
-				"CUBErt",
-				"Darts",
-				"P.L.U.C.K."
-			]
-		},
-		{
-			"id": 1,
+			"id": 2,
 			"name": "Toxicity",
 			"year": 2001,
 			"songs": [
@@ -42,7 +41,7 @@
 			]
 		},
 		{
-			"id": 2,
+			"id": 3,
 			"name": "Steal This Album!",
 			"year": 2002,
 			"songs": [
@@ -65,20 +64,40 @@
 			]
 		},
 		{
-			"id": 3,
+			"id": 4,
 			"name": "Mezmerize",
-			"year": 2005
+			"year": 2005,
+			"songs": [
+				"Soldier Side - Intro",
+				"B.Y.O.B.",
+				"Revenga",
+				"Cigaro",
+				"Radio/Video",
+				"This Cocaine Makes Me Feel Like I'm on This Song",
+				"Violent Pornography",
+				"Question!",
+				"Sad Statue",
+				"Old School Hollywood",
+				"Lost in Hollywood"  
+			]
 		},
 		{
-			"id": 4,
+			"id": 5,
 			"name": "Hypnotize",
-			"year": 2005
+			"year": 2005,
+			"songs": [
+				"Attack",
+				"Dreaming",
+				"Kill Rock 'n Roll",
+				"Hypnotize",
+				"Stealing Society",
+				"Tentative",
+				"U-Fig",
+				"Holy Mountains",
+				"Vicinity of Obscenity",
+				"She's Like Heroin",
+				"Lonely Day",
+				"Soldier Side"  
+			]
 		}
-	],
-	"members": [
-		"Serj Tankian – lead vocals, keyboards and occasional guitar (1994–present)",
-		"Daron Malakian – guitar, vocals (1994–present)",
-		"Shavo Odadjian – bass, backing vocals (1994–present)",
-		"John Dolmayan – drums (1997–present)"
 	]
-}
