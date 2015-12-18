@@ -20,52 +20,52 @@
 			"P.L.U.C.K."
 		]
 	},
-		{
-			"id": 2,
-			"name": "Toxicity",
-			"year": 2001,
-			"cover": "/images/covers/220px-SystemofaDownToxicityalbumcover.jpg",
-			"songs": [
-				"Prison Song",
-				"Needles",
-				"Deer Dance",
-				"Jet Pilot",
-				"X" ,
-				"Chop Suey!",
-				"Bounce",
-				"Forest",
-				"ATWA",
-				"Science",
-				"Shimmy",
-				"Toxicity",
-				"Psycho",
-				"Aerials"  
-			]
-		},
-		{
-			"id": 3,
-			"name": "Steal This Album!",
-			"year": 2002,
-			"cover": "/images/covers/220px-StealThisAlbum.png",
-			"songs": [
-				"Chic 'N' Stu",
-				"Innervision",
-				"Bubbles",
-				"Boom!",
-				"Nüguns",
-				"A.D.D.",
-				"Mr. Jack",
-				"I-E-A-I-A-I-O",
-				"36",
-				"Pictures",
-				"Highway Song",
-				"Fuck the System",
-				"Ego Brain",
-				"Thetawaves",
-				"Roulette",
-				"Streamline" 
-			]
-		},
+	{
+		"id": 2,
+		"name": "Toxicity",
+		"year": 2001,
+		"cover": "/images/covers/220px-SystemofaDownToxicityalbumcover.jpg",
+		"songs": [
+			"Prison Song",
+			"Needles",
+			"Deer Dance",
+			"Jet Pilot",
+			"X" ,
+			"Chop Suey!",
+			"Bounce",
+			"Forest",
+			"ATWA",
+			"Science",
+			"Shimmy",
+			"Toxicity",
+			"Psycho",
+			"Aerials"  
+		]
+	},
+	{
+		"id": 3,
+		"name": "Steal This Album!",
+		"year": 2002,
+		"cover": "/images/covers/220px-StealThisAlbum.png",
+		"songs": [
+			"Chic 'N' Stu",
+			"Innervision",
+			"Bubbles",
+			"Boom!",
+			"Nüguns",
+			"A.D.D.",
+			"Mr. Jack",
+			"I-E-A-I-A-I-O",
+			"36",
+			"Pictures",
+			"Highway Song",
+			"Fuck the System",
+			"Ego Brain",
+			"Thetawaves",
+			"Roulette",
+			"Streamline" 
+		]
+	},
 		{
 			"id": 4,
 			"name": "Mezmerize",

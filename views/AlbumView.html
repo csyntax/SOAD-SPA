@@ -1,6 +1,30 @@
 <section ng-controller="AlbumController">
 	<div class="container">
 		<div class="row">
+			<div class="col-md-6">
+				<form class="form-inline">
+					<div class="form-group">
+						<label>Search: </label>
+						<input type="text" placeholder="Search" ng-model="query" class="form-control">
+					</div>
+				</form>
+			</div>
+
+			<div class="col-md-6">
+				<form class="form-inline">
+					<div class="form-group">
+						<label>Sort: </label>
+						<select ng-model="sort" class="form-control">
+							<option value="-name">By name</option>
+						</select>
+					</div>
+				</form>	
+			</div>
+		</div>
+		
+		<hr>
+
+		<div class="row">
 			<div class="col-md-3">
 				<img ng-src="{{album.cover}}" />
 			</div>
@@ -12,7 +36,7 @@
 				
 				<h4>Songs</h4>
 				<ol>
-					<li ng-repeat="song in album.songs">
+					<li ng-repeat="song in album.songs | orderBy: sort | filter: query">
 						{{song}}
 					</li>
 				</ol>
