@@ -14,3 +14,11 @@ app.factory("Albums", function ($http) {
         }
     };
 });
+
+app.factory("Galery", function ($http) {
+    return {
+        getImages: function (callback) {
+            $http.get("/data/galery.json").success(callback);
+        } 
+    }
+});

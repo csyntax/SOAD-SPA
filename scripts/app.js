@@ -13,6 +13,9 @@ app.config(function ($routeProvider, $locationProvider) {
 		.when("/album/:id", {
 			templateUrl: "views/AlbumView.html"
 		})
+		.when("/galery", {
+			templateUrl: "views/GaleryView.html"
+		})
 		.otherwise({
 			redirectTo: "/home"
 		});	

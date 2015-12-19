@@ -66,43 +66,43 @@
 			"Streamline" 
 		]
 	},
-		{
-			"id": 4,
-			"name": "Mezmerize",
-			"year": 2005,
-			"cover": "/images/covers/220px-Mezmerize-LP.jpg",
-			"songs": [
-				"Soldier Side - Intro",
-				"B.Y.O.B.",
-				"Revenga",
-				"Cigaro",
-				"Radio/Video",
-				"This Cocaine Makes Me Feel Like I'm on This Song",
-				"Violent Pornography",
-				"Question!",
-				"Sad Statue",
-				"Old School Hollywood",
-				"Lost in Hollywood"  
-			]
-		},
-		{
-			"id": 5,
-			"name": "Hypnotize",
-			"year": 2005,
-			"cover": "/images/covers/220px-System_Of_A_Down-Hypnotize.jpg",
-			"songs": [
-				"Attack",
-				"Dreaming",
-				"Kill Rock 'n Roll",
-				"Hypnotize",
-				"Stealing Society",
-				"Tentative",
-				"U-Fig",
-				"Holy Mountains",
-				"Vicinity of Obscenity",
-				"She's Like Heroin",
-				"Lonely Day",
-				"Soldier Side"  
-			]
-		}
-	]
+	{
+		"id": 4,
+		"name": "Mezmerize",
+		"year": 2005,
+		"cover": "/images/covers/220px-Mezmerize-LP.jpg",
+		"songs": [
+			"Soldier Side - Intro",
+			"B.Y.O.B.",
+			"Revenga",
+			"Cigaro",
+			"Radio/Video",
+			"This Cocaine Makes Me Feel Like I'm on This Song",
+			"Violent Pornography",
+			"Question!",
+			"Sad Statue",
+			"Old School Hollywood",
+			"Lost in Hollywood"  
+		]
+	},
+	{
+		"id": 5,
+		"name": "Hypnotize",
+		"year": 2005,
+		"cover": "/images/covers/220px-System_Of_A_Down-Hypnotize.jpg",
+		"songs": [
+			"Attack",
+			"Dreaming",
+			"Kill Rock 'n Roll",
+			"Hypnotize",
+			"Stealing Society",
+			"Tentative",
+			"U-Fig",
+			"Holy Mountains",
+			"Vicinity of Obscenity",
+			"She's Like Heroin",
+			"Lonely Day",
+			"Soldier Side"  
+		]
+	}
+]

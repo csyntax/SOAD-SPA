@@ -9,3 +9,9 @@ app.controller("AlbumController", function ($scope, $routeParams, Albums) {
 		 $scope.album = album;
 	});
 });
+
+app.controller("GaleryController", function ($scope, Galery) {
+	Galery.getImages(function (images) {
+		$scope.images = images;
+	});
+});

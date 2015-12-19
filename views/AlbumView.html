@@ -33,10 +33,11 @@
 				<time class="label label-default">{{album.year}}</time>
 				
 				<hr>	
-				
+			
 				<h4>Songs</h4>
 				<ol>
-					<li ng-repeat="song in album.songs | orderBy: sort | filter: query">
+					<!--<li ng-repeat="song in album.songs | orderBy: sort | filter: query">-->
+					<li ng-repeat="song in album.songs | filter: query">
 						{{song}}
 					</li>
 				</ol>

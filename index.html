@@ -11,10 +11,10 @@
 		<link rel="stylesheet" href="/styles/bootstrap.min.css" />
 		<link rel="stylesheet" href="/styles/style.css">
 		
-		<script src="/scripts/jquery.min.js"></script>
-		<script src="/scripts/bootstrap.min.js"></script>
-		<script src="/scripts/angular.min.js"></script>
-		<script src="/scripts/angular-route.min.js"></script>
+		<script src="/scripts/libs/jquery.min.js"></script>
+		<script src="/scripts/libs/bootstrap.min.js"></script>
+		<script src="/scripts/libs/angular.min.js"></script>
+		<script src="/scripts/libs/angular-route.min.js"></script>
 
 		<script src="/scripts/app.js"></script>
 		<script src="/scripts/controllers.js"></script>
@@ -22,6 +22,9 @@
 	</head>
 	<body ng-app="app" ng-cloak>
 		<div class="container">
+			<header>
+				<!-- Todo -->
+			</header>
 			<nav class="navbar navbar-default">
 			    <div class="container">
 			        <div class="navbar-header">
@@ -40,12 +43,22 @@
 			                <li>
 			                	<a href="/#!/albums">Albums</a>
 			                </li>
+			                <li>
+			                	<a href="/#!/galery">Galery</a>
+			                </li>
 			            </ul>
 			        </div>
 			    </div>
 			</nav>
 			
 			<div ng-view></div>
+
+			<footer>
+				<p>
+					&copy 2015 
+					<a href="http://csyntax.github.io">Ivan Ivanov</a>
+				</p>
+			</footer>
 		</div>
 	</body>
 </html>
