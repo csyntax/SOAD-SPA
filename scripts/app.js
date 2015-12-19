@@ -10,7 +10,7 @@ app.config(function ($routeProvider, $locationProvider) {
 		.when("/albums", {
 			templateUrl: "views/AlbumsView.html"
 		})
-		.when("/album/:id", {
+		.when("/albums/:id", {
 			templateUrl: "views/AlbumView.html"
 		})
 		.when("/galery", {

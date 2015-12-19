@@ -5,10 +5,10 @@
 				<form class="form-group">
 					<div class="row">
 						<div class="col-md-2">
-							<label>Search: </label>
+							<label for="searchSongs">Search: </label>
 						</div>
 						<div class="col-md-10">
-							<input type="text" class="form-control" placeholder="Search" ng-model="query" />
+							<input type="text" class="form-control" name="searchSongs" placeholder="Search" ng-model="query" />
 						</div>
 					</div>
 				</form>
@@ -18,10 +18,10 @@
 				<form class="form-group">
 					<div class="row">
 						<div class="col-md-2">
-							<label>Sort: </label>
+							<label for="sortSongs">Sort: </label>
 						</div>
 						<div class="col-md-10">
-							<select ng-model="sort" class="form-control">
+							<select ng-model="sort" class="form-control" name="sortSongs">
 								<option value="-name">By name</option>
 							</select>
 						</div>

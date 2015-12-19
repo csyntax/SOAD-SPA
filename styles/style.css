@@ -33,6 +33,17 @@ header {
 	color: rgb(24, 188, 156);
 }
 
+.home-image {
+	margin-bottom: 1em;
+}
+
+.home-image img {
+	display: block;
+	margin: 0 auto;
+	width: 900px;
+	border-radius: 0.5em;
+}
+
 footer {
 	border-top: 0.2em solid rgb(24, 188, 156);
 	text-align: center;

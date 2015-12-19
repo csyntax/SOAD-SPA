@@ -1,7 +1,7 @@
 app.factory("Albums", function ($http) {
     return {
         getAlbums: function (callback) {
-            $http.get("/data/data.json").success(callback);
+            $http.get("/data/albums.json").success(callback);
         },
         getAlbum: function (id, callback) {
             this.getAlbums(function (data) {
@@ -13,12 +13,4 @@ app.factory("Albums", function ($http) {
             });
         }
     };
-});
-
-app.factory("Galery", function ($http) {
-    return {
-        getImages: function (callback) {
-            $http.get("/data/galery.json").success(callback);
-        } 
-    }
 });
