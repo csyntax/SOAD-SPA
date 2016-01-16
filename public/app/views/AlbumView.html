@@ -1,0 +1,40 @@
+<section ng-controller="AlbumController">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<form class="form-group">
+					<div class="row">
+						<div class="col-md-2">
+							<label for="searchSongs">Search: </label>
+						</div>
+						<div class="col-md-10">
+							<input type="text" class="form-control" name="searchSongs" placeholder="Search" ng-model="query" />
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<hr>
+
+		<div class="row">
+			<div class="col-md-3">
+				<img ng-src="{{album.cover}}" />
+			</div>
+			<div class="col-md-9">
+				<h2>{{album.name}}</h2>
+				<time class="label label-default">{{album.year}}</time>
+				
+				<hr>	
+			
+				<h4>Songs</h4>
+				<ol>
+					<!--<li ng-repeat="song in album.songs | orderBy: sort | filter: query">-->
+					<li ng-repeat="song in album.songs | filter: query">
+						{{song}}
+					</li>
+				</ol>
+			</div>
+		</div>
+	</div>	
+</section>

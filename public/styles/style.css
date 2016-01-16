@@ -1,0 +1,66 @@
+body {
+	padding-top: 1.5em;
+}
+
+header {
+	margin-bottom: 1em;
+	width: 100%;
+	max-width: 100%;
+	height: 260px;
+	background: url("http://rero.bg/files/2014/01/system-of-a-down-art-band-members-rero-article-610x260.jpg");
+	background-size: 100% 100%;
+	border-radius: 1em;
+}
+
+.navbar {
+	background: rgb(44, 62, 80);
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border: none;
+}
+
+.navbar .navbar-header .navbar-brand {
+	color: rgb(24, 188, 156);
+}
+
+.navbar .nav li a {
+	color: white;
+}
+
+.navbar .nav li a:hover,
+.navbar .nav li a:active,
+.navbar .nav li a:focus {
+	color: rgb(24, 188, 156);
+}
+
+.home-image {
+	margin-bottom: 1em;
+}
+
+.home-image img {
+	display: block;
+	margin: 0 auto;
+	width: 900px;
+	border-radius: 0.5em;
+}
+
+footer {
+	border-top: 0.2em solid rgb(24, 188, 156);
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+footer p {
+	font-size: 1.2em;
+}
+
+footer p a {
+	color: rgb(44, 62, 80);
+}
+
+footer p a:hover,
+footer p a:focus,
+footer p a:active {
+	color: rgb(24, 188, 156);
+}
