@@ -1,5 +1,45 @@
-extends layout
+doctype html
+html
+	head
+		meta(charset="uft-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		meta(name="fragment", content="!")
 
-block content
-  h1= title
-  p Welcome to #{title}
+		title SOAD-SPA
+
+		link(rel="stylesheet", href="/components/bootstrap/dist/css/bootstrap.min.css")
+		link(rel="stylesheet" href="/styles/style.css")
+		
+		script(src="/components/jquery/dist/jquery.min.js")
+		script(src="/components/bootstrap/dist/js/bootstrap.min.js")
+		script(src="/components/angular/angular.min.js")
+		script(src="/components/angular-route/angular-route.min.js")
+
+		script(src="/app/app.js")
+		script(src="/app/controllers.js")
+		script(src="/app/services.js")
+	body(ng-app="app", ng-cloak)
+		.container
+			header
+				h1 System Of A Down
+			
+			nav.navbar.navbar-default
+				.container
+					.navbar-header
+						a(href="/#!/", class="navbar-brand") System Of A Down
+						button.navbar-toggle(type="button", data-toggle="collapse", data-target="#navbar-main")
+							.icon-bar
+							.icon-bar
+							.icon-bar
+					.navbar-collapse.collapse#navbar-main
+						ul.nav.navbar-nav
+							li
+								a(href="/#!/home") Home
+							li
+								a(href="/#!/albums") Albums
+			div(ng-view)
+			
+			footer
+				p &copy 2015
+					a(href="http://csyntax.github.io") Ivan Ivanov
