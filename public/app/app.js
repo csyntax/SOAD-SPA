@@ -5,13 +5,16 @@ app.config(function ($routeProvider, $locationProvider) {
 	
 	$routeProvider
 		.when("/", {
-			templateUrl: "/app/views/HomeView.html"
+			templateUrl: "/app/views/HomeView.html",
+			controller: "HomeController"
 		})
 		.when("/albums", {
-			templateUrl: "/app/views/AlbumsView.html"
+			templateUrl: "/app/views/AlbumsView.html",
+			controller: "AlbumsController"
 		})
 		.when("/albums/:id", {
-			templateUrl: "/app/views/AlbumView.html"
+			templateUrl: "/app/views/AlbumView.html",
+			controller: "AlbumController"
 		})
 		.otherwise({
 			redirectTo: "/"
